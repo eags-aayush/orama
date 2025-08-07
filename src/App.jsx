@@ -7,7 +7,6 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-100 p-4">
-        <h1 className="text-2xl font-bold mb-4">LinkedIn Sales Automation</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
