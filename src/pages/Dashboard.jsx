@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <>
       <Navbar />
-    <div className="min-h-screen bg-white px-6 py-10">
+    <div className="min-h-screen px-6 py-10">
       {/* Title */}
       <div className="text-center">
         <h1 className="text-3xl font-bold text-blue-600">Analytics Dashboard</h1>
@@ -24,7 +24,7 @@ export default function Dashboard() {
       {/* Grid Cards */}
       <div className="mt-12 grid gap-6 grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto">
         {/* Performance Metrics Card */}
-        <div className="border rounded-xl shadow-sm p-6 hover:shadow-md transition">
+        <div className="bg-white border rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <div className="flex items-center gap-3 text-blue-600 font-semibold text-lg mb-4">
             <ChartLine />
             Performance Metrics
@@ -39,7 +39,7 @@ export default function Dashboard() {
         </div>
 
         {/* Automation Insights Card */}
-        <div className="border rounded-xl shadow-sm p-6 hover:shadow-md transition">
+        <div className="bg-white border rounded-xl shadow-sm p-6 hover:shadow-md transition">
           <div className="flex items-center gap-3 text-blue-600 font-semibold text-lg mb-4">
             <Clock />
             Automation Insights
